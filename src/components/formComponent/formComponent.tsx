@@ -91,7 +91,7 @@ export const FormComponent:React.FC<IProps> = (props:IProps) => {
             {
                 axios.defaults.headers.post['Content-Type'] ='application/json;charset=utf-8';
                 axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
-                axios.post('http://191.232.197.170/ServiceStudent.svc/createStudent',{
+                axios.post('https://191.232.197.170:443/ServiceStudent.svc/createStudent',{
                     name:student.name,
                     courseID:student.course.id,
                     genderID:student.gender.id
@@ -107,7 +107,7 @@ export const FormComponent:React.FC<IProps> = (props:IProps) => {
             else{
                     axios.defaults.headers.post['Content-Type'] ='application/json;charset=utf-8';
                     axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
-                    axios.put('http://191.232.197.170/ServiceStudent.svc/updateStudent',{
+                    axios.put('https://191.232.197.170:443/ServiceStudent.svc/updateStudent',{
                         id:student.id,
                         name:student.name,
                         courseID:student.course.id,

@@ -33,7 +33,7 @@ export const DataComponent:React.FC<IProps> = (props:IProps) => {
     const handleDeleteClick = (student:IStudent) => {
         axios.defaults.headers.post['Content-Type'] ='application/json;charset=utf-8';
         axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
-        axios.delete(`http://191.232.197.170/ServiceStudent.svc/deleteStudent/${student.id}`)
+        axios.delete(`https://191.232.197.170:443/ServiceStudent.svc/deleteStudent/${student.id}`)
         .then(() => {
             dispatch(ActionCreators.Student.delete(student))				
         })
