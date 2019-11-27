@@ -1,0 +1,10 @@
+.container{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.container label{
+    margin-bottom: 1%;
+    color: rgba(0, 0, 0, 0.87);
+}
