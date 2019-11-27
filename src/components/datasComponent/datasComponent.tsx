@@ -28,7 +28,7 @@ export const DatasComponent:React.FC<IProps> = (props:IProps) => {
   useEffect(() => {
     let students:IStudent[] = []
 
-    axios.get('http://191.232.197.170/ServiceStudent.svc/getStudents')
+    axios.get('https://191.232.197.170:443/ServiceStudent.svc/getStudents')
     .then((res:any) => {
         res.data.GetStudentsResult.map((x:any) => {
     
@@ -52,7 +52,7 @@ export const DatasComponent:React.FC<IProps> = (props:IProps) => {
         console.log(err)
         return
     })
-  },[])
+  },[dispatch])
 
   useEffect(() => {
     setStudents(reduxStudents)
