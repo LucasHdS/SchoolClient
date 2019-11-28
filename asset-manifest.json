@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SchoolClient/static/css/main.a7589efe.chunk.css",
-    "main.js": "/SchoolClient/static/js/main.164d2f09.chunk.js",
-    "main.js.map": "/SchoolClient/static/js/main.164d2f09.chunk.js.map",
+    "main.js": "/SchoolClient/static/js/main.c40fda0a.chunk.js",
+    "main.js.map": "/SchoolClient/static/js/main.c40fda0a.chunk.js.map",
     "runtime-main.js": "/SchoolClient/static/js/runtime-main.24efdf7b.js",
     "runtime-main.js.map": "/SchoolClient/static/js/runtime-main.24efdf7b.js.map",
     "static/js/2.f669a876.chunk.js": "/SchoolClient/static/js/2.f669a876.chunk.js",
     "static/js/2.f669a876.chunk.js.map": "/SchoolClient/static/js/2.f669a876.chunk.js.map",
     "index.html": "/SchoolClient/index.html",
-    "precache-manifest.223729ccd59a341f0f3460918899468d.js": "/SchoolClient/precache-manifest.223729ccd59a341f0f3460918899468d.js",
+    "precache-manifest.9ffb275e13e55225b61c5d49ee2a6322.js": "/SchoolClient/precache-manifest.9ffb275e13e55225b61c5d49ee2a6322.js",
     "service-worker.js": "/SchoolClient/service-worker.js",
     "static/css/main.a7589efe.chunk.css.map": "/SchoolClient/static/css/main.a7589efe.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.24efdf7b.js",
     "static/js/2.f669a876.chunk.js",
     "static/css/main.a7589efe.chunk.css",
-    "static/js/main.164d2f09.chunk.js"
+    "static/js/main.c40fda0a.chunk.js"
   ]
 }
