@@ -44,10 +44,10 @@ export const DataComponent:React.FC<IProps> = (props:IProps) => {
 
     return (
         <>
-            <TableRow onClick={() => props.onClick(props.student)} className={styles.row} key={localStudent.id}>
-              <TableCell align="left">{localStudent.name}</TableCell>
-              <TableCell align="left">{localStudent.course.label}</TableCell>
-              <TableCell align="left">{localStudent.gender.label}</TableCell>
+            <TableRow  className={styles.row} key={localStudent.id}>
+              <TableCell onClick={() => props.onClick(props.student)} align="left">{localStudent.name}</TableCell>
+              <TableCell onClick={() => props.onClick(props.student)} align="left">{localStudent.course.label}</TableCell>
+              <TableCell onClick={() => props.onClick(props.student)} align="left">{localStudent.gender.label}</TableCell>
               <TableCell><DeleteIcon onClick={() => handleDeleteClick(localStudent)} className={styles.icon} color='primary'/></TableCell>
             </TableRow>
         </>
